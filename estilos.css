@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+header {
+    background-color: #00a2ff;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00a2ff;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(255, 196, 0, 0.1);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #ffc107; 
+    transition: background-color 0.3s ease;
+    font-family: 'VT323', monospace;
+    
+}
+
+nav a:hover {
+    background-color: #ff9800;
+}
+
+section {
+    padding: 40px 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    color: #333;
+    font-family: 'Press Start 2P', cursive; 
+}
+
+h3 {
+    font-family: 'VT323', monospace;
+    color: #ff9800; 
+}
+
+p {
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #00a2ff; 
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#presentacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#presentacion .circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+}
+
+#presentacion .circulo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#minijuego .minijuego-seccion {
+    margin: 20px 0;
+}
+
+#minijuego .imagenes-juego,
+#minijuego .imagenes-personajes {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+}
+
+#minijuego .imagen-juego,
+#minijuego .imagen-personaje {
+    width: 200px; 
+    margin: 40px;
+    margin: 0 auto;
+}
+
+#minijuego .imagen-juego img,
+#minijuego .imagen-personaje img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+#bocetos .imagenes-bocetos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bocetos .imagen-boceto {
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+#bocetos .imagen-boceto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Edit {
+    text-align: center;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.video-container iframe {
+    width: 50%;
+    height: 50%;
+}
+
+#minijuego .minijuego-seccion {
+    margin: 20px 0;
+}
+
+
+#minijuego #control-juego {
+    background-color: #00a2ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#minijuego #control-juego a {
+    display: inline-block;
+    background-color: #ffc107;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+#minijuego #control-juego a:hover {
+    background-color: #ff9800;
+}
+
+
+.imagen-aventura-img {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.imagen-aventura.error img {
+    width: 100%; 
+    max-width: 10px;
+    height: auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
